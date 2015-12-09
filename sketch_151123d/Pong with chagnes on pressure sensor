@@ -6,6 +6,7 @@ Paddle bottom;
 Ball pongball;
 Paddle top;
 void setup()
+int value;
 {
   frameRate(100);
   noStroke();
@@ -25,11 +26,11 @@ void keyPressed()
   {
     right = true;
   }
-  if (key == 'a')
+  if (key == sensorPin1 )
   {
     a=true;
   }
-  if (key == 'd' )
+  if (key == value =sensorPin2 )
   {
     d=true;
   }
